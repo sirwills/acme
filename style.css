@@ -37,3 +37,100 @@ span{
     color: orangered;
     
 }
+main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    background-image: url(./pexels-math-331684.jpg);
+    background-size: cover;
+    
+
+}
+
+main h1{
+    font-size: 60px;
+    color: orangered;
+    margin-bottom: 20px;
+}
+main p{
+    font-size: 1.3rem;
+    color:grey;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+section{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid blacks;
+    background-color: grey;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+section p{
+    font-family: roboto;
+    text-decoration: bold;
+    color: white;
+    font-size: 20px;
+}
+section input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+section button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+     background-color: orangered;
+     color: white;
+}
+
+aside{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+}
+aside img{
+    width: 100px;
+    width: 100px;
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    /* border: 2px solid black; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+aside h3{
+    margin: 20px;
+    text-align: center;
+
+}
+aside p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: light;
+}
+
+footer{
+    width: auto;
+    height: 70px;
+    color: white;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
