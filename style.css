@@ -68,7 +68,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 2px solid blacks;
+    /* border: 2px solid black; */
     background-color: grey;
     padding-left: 60px;
     padding-right: 60px;
@@ -135,15 +135,13 @@ footer{
     justify-content: center;
 }
 .main{
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: white;
     display: flex;
-    align-items: center;
     justify-content: space-around;
     margin-right: 80px;
-    margin-left: 80px;
-    
+    margin-left: 80px; 
    
 }
 .about{
@@ -188,10 +186,36 @@ footer{
     align-items: center;
 }
 
-.service-card{
+.service-fee{
+    background-color: lightgray;
+    width: 95%;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+}
 
-    margin-left: 80px;
-    height: auto;
+.form-card{
+    background-color: black;
+    color: white;
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+    margin-top: 30px;
+    
+}
+.input-area{
+    padding: 5px;
     width: 100%;
 
+}
+.textbox{
+    padding: 20px;
+    width: 100%;
+
+}
+.servtext{
+    margin-top: 30px;
+}
+.formarea{
+    margin-top: 20px;
 }
